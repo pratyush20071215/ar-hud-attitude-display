@@ -16,6 +16,8 @@ avr-libc only) — hand-rolled SH1106 I2C driver, NMEA parser, and 7-segment
 renderer. Windows host tool uses Python stdlib + ctypes→kernel32 only, no
 pyserial.
 
+**Add I2C timeout and bus reset, refer to the .ino file**
+
 **Faults found and fixed.** The SH1106/SSD1306 controller mismatch, the 5 V/3.3 V supply mismatch and the firmware regression.
 
 **Status:** MPU6050 (gyro-bias calibrated, complementary filter) and OLED
