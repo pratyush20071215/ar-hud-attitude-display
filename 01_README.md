@@ -26,6 +26,8 @@ retained, disabled.
 true heading), uncoated combiner is illegible in daylight, no barometric
 altitude, uncertified. Ground/bench prototype only.
 
+**Roadmap.** Validation against a reference, plus a GPS test once the replacement arrives.
+
 **TO NOTE: NO VERIFIED NUMBERS AS OF YET DUE TO MISSING GPS MODULE.**
 
 See `/docs` for full build log and debugging history.
