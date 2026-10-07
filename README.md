@@ -7,7 +7,6 @@ combiner.
 
 ## Demo
 [video 1 link] https://github.com/user-attachments/assets/48061d6f-56d3-4579-ba7f-48514dd9a5fb
-*Caption: what this shows.*
 
 ![Hardware build](your-image-link) <img width="1600" height="1200" alt="WhatsApp Image 2026-10-04 at 19 38 31" src="https://github.com/user-attachments/assets/9cb6fef2-9329-48df-9e54-0a7867a5abde" />  
 *Caption: OLED layout.*
@@ -28,7 +27,7 @@ NEO-6M GPS (faulty).
 | [fill in SDA/SCL, GPS RX/TX] | [fill in] |
 
 ## Software
-Libraries used: Wire.h, SoftwareSerial.h,avr-libc 
+Libraries used: Wire.h, SoftwareSerial.h,avr-lib
 Hand-written parts: SH1106 driver, NMEA parser, 7-segment renderer.
 A Windows host tool uses the Python standard library and ctypes (kernel32)
 instead of pyserial.
