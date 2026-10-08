@@ -24,7 +24,9 @@ NEO-6M GPS (faulty).
 
 | Signal | Pin |
 |---|---|
-| [fill in SDA/SCL, GPS RX/TX] | [fill in] |
+| Power supply(Display) | 3.3V |
+| Power supply(MPU6050 & NEO-6M | 5V |
+| Data transmission(MPU6050 & Display) | A4 to SDA, A5 to SCL | 
 
 ## Software
 Libraries used: Wire.h, SoftwareSerial.h,avr-lib
