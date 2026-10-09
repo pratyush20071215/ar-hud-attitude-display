@@ -1,4 +1,4 @@
-# HUD-altitude-display
+# AR-HUD-altitude-display
 Built with AI assistance (Claude). Hardware assembly, wiring, testing and fault diagnosis were done by me.
 Bench prototype of a low-cost head-up attitude display for general aviation.
 An Arduino Uno R3 reads an MPU6050 IMU and shows pitch/roll on a 1.3" SH1106
