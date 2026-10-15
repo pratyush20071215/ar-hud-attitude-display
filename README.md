@@ -1,4 +1,4 @@
-# AR-HUD-altitude-display
+# AR-HUD-attitude-display
 Built with AI assistance (Claude). Hardware assembly, wiring, testing and fault diagnosis were done by me.
 Bench prototype of a low-cost head-up attitude display for general aviation.
 An Arduino Uno R3 reads an MPU6050 IMU and shows pitch/roll on a 1.3" SH1106
@@ -6,20 +6,24 @@ OLED, projected into the forward view through a biconvex lens and an acrylic
 combiner.
 
 ## Demo
-[video 1 link] https://github.com/user-attachments/assets/48061d6f-56d3-4579-ba7f-48514dd9a5fb
+Project setup(current): <img width="1600" height="1200" alt="WhatsApp Image 2026-10-15 at 18 58 08" src="https://github.com/user-attachments/assets/c213e345-1553-435d-bc04-e2749fb25d32" /> 
 
-![Hardware build](your-image-link) <img width="1600" height="1200" alt="WhatsApp Image 2026-10-04 at 19 38 31" src="https://github.com/user-attachments/assets/9cb6fef2-9329-48df-9e54-0a7867a5abde" />  
-*Caption: OLED layout.*
+[Hardware build] 
+
+https://github.com/user-attachments/assets/855e59c7-95fa-488d-a651-3dfe779b5f4a
+
+https://github.com/user-attachments/assets/0999632d-8ee0-4091-b69e-9a7fbe59eff1
 
 ## Status
 - **Working:** MPU6050 (gyro-bias calibrated) with a complementary filter
   (98% gyro, 2% accelerometer) and OLED display of pitch/roll.
 - **Not working:** the NEO-6M GPS module is faulty. The NMEA parser is written
   but disabled until the replacement arrives.
-- **Not measured yet:** attitude accuracy, drift and update rate.
+- **Measured:** attitude accuracy, drift and update rate.
 
 ## Hardware
-Arduino Uno R3, MPU6050, SH1106 1.3" OLED, biconvex lens, acrylic combiner,
+Arduino Uno R3, MPU6050, SH1106 1.3" OLED, biconvex lens, acrylic combiner(these 2 are to be integrated once all components work),
+
 NEO-6M GPS (faulty).
 
 | Signal | Pin |
