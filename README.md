@@ -50,8 +50,7 @@ instead of pyserial.
 
 
 ## Limitations
-Not for flight. No magnetometer (the displayed "heading" is GPS track), the
-uncoated combiner is hard to read in daylight, no barometric altitude,
+Not for flight. No magnetometer (the displayed "heading" is GPS track), no barometric altitude,
 uncertified. Bench prototype only.
 
 ## Roadmap
