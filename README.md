@@ -22,9 +22,7 @@ https://github.com/user-attachments/assets/0999632d-8ee0-4091-b69e-9a7fbe59eff1
 - **Not yet measured:** attitude accuracy, drift and update rate.
 
 ## Hardware
-Arduino Uno R3, MPU6050, SH1106 1.3" OLED, biconvex lens, acrylic combiner(these 2 are to be integrated once all components work),
-
-NEO-6M GPS (faulty).
+Arduino Uno R3, MPU6050, SH1106 1.3" OLED, biconvex lens, acrylic combiner,NEO-6M GPS (faulty).
 
 | Signal | Pin |
 |---|---|
