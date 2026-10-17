@@ -48,8 +48,7 @@ instead of pyserial.
 
 
 ## Limitations
-Not for flight. No magnetometer (the displayed "heading" is GPS track), no barometric altitude,
-uncertified. Bench prototype only.
+Not for flight. No magnetometer (the displayed "heading" is GPS track), no barometric altitude, limited to low or night time usage, uncertified. Bench prototype only.
 
 ## Roadmap
 1. Validate pitch/roll against a protractor reference and report the error.
