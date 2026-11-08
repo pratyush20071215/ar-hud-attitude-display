@@ -31,7 +31,7 @@ void mpuRead(int16_t &ax, int16_t &ay, int16_t &az, int16_t &gx, int16_t &gy) {
   int16_t gX = rd16(0x43), gY = rd16(0x45), gZ = rd16(0x47);
   ax = x; ay = y; az = z; gx = gX; gy = gY;   // <-- the only line to change per table row
 }
-void mpuCalibrate() {                          // ADD THIS FUNCTION
+void mpuCalibrate() {                         
   long sx = 0, sy = 0;
   for (int i = 0; i < 500; i++) { sx += rd16(0x43); sy += rd16(0x45); delay(3); }
   gxOff = sx / 500.0; gyOff = sy / 500.0;
