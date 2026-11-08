@@ -39,8 +39,8 @@ void mpuCalibrate() {
 void mpuUpdate(float dt) {
   int16_t ax = rd16(0x3B), ay = rd16(0x3D), az = rd16(0x3F);
   int16_t gx = rd16(0x43), gy = rd16(0x45);
-  float accPitch = atan2(-ax, sqrt((float)ay * ay + (float)az * az)) * 57.29578;
-  float accRoll  = atan2(ay, az) * 57.29578;
+  float accRoll = atan2(-ax, sqrt((float)ay * ay + (float)az * az)) * 57.29578;
+  float accPitch  = atan2(ay, az) * 57.29578;
   pitch = 0.98 * (pitch + ((gx - gxOff) / 131.0) * dt) + 0.02 * (accPitch - pitchTrim);
   roll  = 0.98 * (roll  + ((gy - gyOff)/ 131.0) * dt) + 0.02 * (accRoll - rollTrim);
 }
